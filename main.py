@@ -9,7 +9,7 @@ screen.tracer(0)
 
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
-
+# top_paddle = Paddle((200, 0)) #creates another paddle in the given location
 
 
 
@@ -17,7 +17,6 @@ l_paddle = Paddle((-350, 0))
 screen.listen()
 screen.onkey(r_paddle.go_up, key="Up")
 screen.onkey(r_paddle.go_down, key="Down")
-
 screen.onkey(l_paddle.go_up, key="w")
 screen.onkey(l_paddle.go_down, key="s")
 
