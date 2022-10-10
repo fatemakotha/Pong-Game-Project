@@ -19,6 +19,3 @@ class Paddle(Turtle):
         self.goto(self.xcor(), new_y)
 
 
-class Ball(Turtle):
-    def __init__(self):
-        self.shape("circle")
