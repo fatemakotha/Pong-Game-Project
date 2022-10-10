@@ -5,7 +5,7 @@ screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("PONG GAME")
 
-paddle = Turtle()
+paddle = Turtle("square")
 paddle.color("white")
 paddle.goto(x=350, y=0)
 
