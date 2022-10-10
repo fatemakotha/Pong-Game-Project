@@ -7,7 +7,8 @@ screen.title("PONG GAME")
 
 paddle = Turtle("square")
 paddle.color("white")
-paddle.goto(x=350, y=0)
+paddle.color("white")
+paddle.shapesize(stretch_wid=5, stretch_len=1)
 
 
 
