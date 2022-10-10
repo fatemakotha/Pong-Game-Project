@@ -7,8 +7,8 @@ screen.bgcolor("black")
 screen.title("PONG GAME")
 screen.tracer(0)
 
-r_paddle = Paddle((350, 0))
-l_paddle = Paddle((-350, 0))
+r_paddle = Paddle((350, 0)) #tuple
+l_paddle = Paddle((-350, 0)) #tuple
 # top_paddle = Paddle((200, 0)) #creates another paddle in the given location
 
 
