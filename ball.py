@@ -14,5 +14,12 @@ class Ball(Turtle):
         new_y = self.ycor() + self.y_move
         self.goto(new_x, new_y)
 
-    def bounce(self):
+    def bounce_vertical(self):
         self.y_move *= -1 #changes the direction of the y coordinate
+
+    def bounce_horizontal(self):
+        self.x_move *= -1  # changes the direction of the y coordinate
+
+    def reset_position(self):
+        self.goto(0, 0)
+        self.bounce_horizontal()
