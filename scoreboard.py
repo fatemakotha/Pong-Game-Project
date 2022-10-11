@@ -10,6 +10,7 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def update_scoreboard(self):
+        self.clear()
         self.goto(x=-100,y=200)
         self.write(self.l_score, align="center", font=("Courier", 80, "normal"))
         self.goto(x=100, y=200)
